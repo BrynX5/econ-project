@@ -1,0 +1,17 @@
+{
+  "quarters_used": 78,
+  "sample": "2007Q2 to 2026Q3",
+  "test_period": "2022Q4 to 2026Q3",
+  "test_quarters": 16,
+  "mae_pct_points": {
+    "no_change": 0.085,
+    "random_forest": 0.131,
+    "linear_ridge": 0.083
+  },
+  "rf_vs_no_change": 0.533,
+  "top_features": {
+    "gdp_growth": 0.479,
+    "claims_yoy": 0.268,
+    "d_unemployment": 0.083
+  }
+}
