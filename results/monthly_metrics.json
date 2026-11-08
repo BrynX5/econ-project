@@ -1,0 +1,85 @@
+{
+  "months": 597,
+  "sample": "1977-01 to 2026-10",
+  "test_period": "2000-01 to 2026-09",
+  "covid_excluded": "2020-03 to 2021-06",
+  "recession_months_tested_h1": 26,
+  "mae_pct_points": {
+    "1m": {
+      "no_change": 0.114,
+      "ar": 0.113,
+      "ar_claims": 0.11,
+      "random_forest": 0.106
+    },
+    "3m": {
+      "no_change": 0.216,
+      "ar": 0.201,
+      "ar_claims": 0.194,
+      "random_forest": 0.18
+    },
+    "6m": {
+      "no_change": 0.373,
+      "ar": 0.312,
+      "ar_claims": 0.326,
+      "random_forest": 0.284
+    },
+    "12m": {
+      "no_change": 0.703,
+      "ar": 0.615,
+      "ar_claims": 0.651,
+      "random_forest": 0.546
+    }
+  },
+  "ratio_vs_no_change": {
+    "1m": {
+      "no_change": 1.0,
+      "ar": 0.989,
+      "ar_claims": 0.959,
+      "random_forest": 0.93
+    },
+    "3m": {
+      "no_change": 1.0,
+      "ar": 0.931,
+      "ar_claims": 0.899,
+      "random_forest": 0.833
+    },
+    "6m": {
+      "no_change": 1.0,
+      "ar": 0.837,
+      "ar_claims": 0.875,
+      "random_forest": 0.763
+    },
+    "12m": {
+      "no_change": 1.0,
+      "ar": 0.875,
+      "ar_claims": 0.925,
+      "random_forest": 0.776
+    }
+  },
+  "ratio_vs_no_change_recessions": {
+    "1m": {
+      "no_change": 1.0,
+      "ar": 0.723,
+      "ar_claims": 0.63,
+      "random_forest": 0.632
+    },
+    "3m": {
+      "no_change": 1.0,
+      "ar": 0.672,
+      "ar_claims": 0.654,
+      "random_forest": 0.733
+    },
+    "6m": {
+      "no_change": 1.0,
+      "ar": 0.803,
+      "ar_claims": 0.768,
+      "random_forest": 0.798
+    },
+    "12m": {
+      "no_change": 1.0,
+      "ar": 0.973,
+      "ar_claims": 0.847,
+      "random_forest": 0.959
+    }
+  }
+}
